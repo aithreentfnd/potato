@@ -1,4 +1,4 @@
-# Heimdall (3x-ui fork) روی Railway با یک پورت واحد
+#  (3x-ui fork) روی Railway با یک پورت واحد
 
 این ریپازیتوری، پنل Heimdall (نسخه‌ی بهبودیافته‌ی 3x-ui از sh7CBAC) را به همراه یک nginx reverse proxy اجرا می‌کند که پنل، ساب‌اسکریپشن و اینباند VLESS/WebSocket را از طریق **یک پورت واحد** (همان پورتی که Railway اختصاص می‌دهد) در دسترس می‌گذارد — دقیقاً همون معماری که برای x4gKing/3x-ui-Upgrade ساختیم و تست شد.
 
