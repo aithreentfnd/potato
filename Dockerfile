@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     socat \
     tzdata \
     sqlite3 \
-    nginx \
+    nginx \ 
     gettext-base \
     && ln -sf /usr/share/zoneinfo/Asia/Tehran /etc/localtime \
     && rm -rf /var/lib/apt/lists/*
