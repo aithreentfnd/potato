@@ -46,12 +46,12 @@ http {
             proxy_set_header Accept-Encoding "";
             sub_filter_once off;
             sub_filter_types application/javascript text/javascript application/json;
-            sub_filter 'HEIMDALL' 'X4G';
-            sub_filter 'Heimdall' 'X4G';
-            sub_filter 'heimdall' 'x4g';
-            sub_filter '@HeimdallStudio' 'X4G Hub';
-            sub_filter 't.me/HeimdallStudio' 'www.youtube.com/@X4GHUB';
-            sub_filter 'sh7CBAC/Heimdall' 'x4gKing';
+            sub_filter 'HEIMDALL' 'SpaceVPN';
+            sub_filter 'Heimdall' 'SpaceVPN';
+            sub_filter 'heimdall' 'SpaceVPN';
+            sub_filter '@spacevpn_channell' 'SpaceVPN';
+            sub_filter 't.me/spacevpn_channell' 'www.youtube.com/@sirmremery';
+            sub_filter 'sh7CBAC/Heimdall' 'sirmremery';
             sub_filter '</body>' '<script>(function(){function patch(){document.querySelectorAll("a").forEach(function(a){if(a.href&&/heimdall|sh7cbac/i.test(a.href)){a.href="https://github.com/x4gKing";}var t=a.textContent.trim();if(/^v?1\.2\.0/i.test(t)&&t.length<10){a.textContent=t.replace(/1\.2\.0/,"3.4.2");}});document.querySelectorAll("*").forEach(function(el){if(el.children.length)return;var t=el.textContent.trim();if(/^update\s+[\d.]+/i.test(t)&&t.length<20){el.textContent=t.replace(/[\d.]+/,"3.4.2");el.style.setProperty("color","inherit","important");var p=el.closest("a, button, div");if(p)p.style.setProperty("color","inherit","important");}});}patch();new MutationObserver(patch).observe(document.body,{childList:true,subtree:true,characterData:true});setInterval(patch,1500);})();</script></body>';
         }
 
